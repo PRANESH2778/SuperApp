@@ -1,0 +1,82 @@
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 160px;
+}
+.signup h2{
+    font-size: 67px;
+    font-weight: 400;
+    font-family: Single Day;
+    color: #72DB73;
+    margin:0;
+
+}
+#create{
+    font-family: DM Sans;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    margin: 0;
+    color:#FFFFFF;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form input{
+    width: 500px;
+    height: 30px;
+    border-radius: 3.82px;
+    background-color: #292929;
+    margin-top: 10px;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #7C7C7C;
+}
+.form .error {
+    color: red;
+    font-size: 14px;
+    width: 90%;
+    max-width: 400px;
+    margin: -10px auto 8px;
+    text-align: left;
+    margin-top: 2px;
+  }
+input[type=checkbox] { 
+    width: 20px;
+    vertical-align: middle; 
+    position: relative; 
+    margin-top: 10px;
+    margin-bottom: 10px; 
+} 
+  
+label { 
+    display: block; 
+    color: #7C7C7C;
+} 
+.Btn1{
+    width: 500px;
+    height: 35px;
+    border-radius: 28px;
+    background-color: #72DB73;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0;
+}
+.signup p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #7C7C7C;
+}
+.signup span{
+    color: #72DB73;
+}

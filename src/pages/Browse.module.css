@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Single+Day&display=swap");
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+.body{
+    height: 96vh;
+    max-height: 96vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    font-family: Roboto;
+}
+.left{
+    height: 96vh;
+    width: 70vw;
+}
+.top{
+    height: 60vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 60vh;
+    max-width: 70vw;
+}
+.userdetail{
+    height: 40vh;
+    width: 35vw;
+}
+.weather{
+    height: 20vh;
+    width: 35vw;
+}
+.notes{
+    height: 60vh;
+    width: 35vw;
+}
+.right{
+    height: 96vh;
+    width: 30vw;
+}
+.btn1{
+    position: absolute;
+    right: 0;
+    bottom: 1;
+    height: 6vh;
+    width: 9vw;
+    border-radius: 34px;
+    background-color: #148A08;
+    color: white;
+
+}

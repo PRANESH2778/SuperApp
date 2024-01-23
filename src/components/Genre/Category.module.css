@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Single+Day&display=swap");
+
+.body{
+    background-color: black;
+    height: 96vh;
+    width: 100vw;
+    max-height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+}
+.left{
+    height: 96vh;
+    max-height: 100vh;
+    width: 45vw;
+    padding-left: 5vw;
+}
+.left h1{
+    font-family: Single Day;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 50px;
+    line-height: 99px;
+    letter-spacing: 0em;
+    color: #72DB73;
+}
+.choosing{
+    margin: 0;
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    color: white;
+}
+.right{
+    height: 60vh;
+    max-height: 60vh;
+    width: 40vw;
+    max-width: 40vw;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3,1fr);
+}
+.btn1{
+    position: absolute;
+    bottom: 1vh;
+    right: 22vh;
+    border-radius: 30px;
+    background-color: #148A08;
+}
+.error{
+    font-size: 25px;
+    color:#FF0000 ;
+}

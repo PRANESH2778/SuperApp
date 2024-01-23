@@ -1,0 +1,17 @@
+.main{
+    width: 800px;
+    height: 700px;
+    background-image: url('/src/assets/images/Homebg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.main h1{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    color: white;
+    font-size: 55px;
+    font-weight: 900;
+}
